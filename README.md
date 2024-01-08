@@ -21,3 +21,15 @@
 8. Seoul -> name and password
 9. Restart Now
 10. 부팅 전 USB 제거
+
+### 발생하는 오류
+1. 버전 문제 </br>
+18.04.4 하위버전은 네트워크 드라이버 탑재 x </br>
+18.04.4 상위버전은 설치 오류 발생 </br>
+-->18.04.4로 부팅 USB 제작
+2. 무한 Login </br>
+```
+sudo ubuntu-drivers autoinstall
+sudo reboot
+```
+   --> 모든 우분투 드라이버 설치
