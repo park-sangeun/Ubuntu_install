@@ -33,3 +33,23 @@ sudo ubuntu-drivers autoinstall
 sudo reboot
 ```
    --> 모든 우분투 드라이버 설치
+
+### 검은 화면 발생 시
+1. 시작 시 e 누르기 </br>
+```
+quit slash nomodeset
+```
+2. noodeset 추가 후 F10 reboot </br>
+3. Terminal에서 아래 명령어 입력 </br>
+```
+sudo gedit /etc/default/grub
+```
+4. 내용 추가 </br>
+```
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"으로 변경
+```
+5. grub update </br>
+```
+sudo update-grub
+```
+6. reboot
