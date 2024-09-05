@@ -52,8 +52,9 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"으로 변경
 ```
 sudo update-grub
 ```
-6. reboot
+6. reboot </br>
 
+[참고 Link](https://www.dell.com/support/kbdoc/ko-kr/000123893/manual-nomodeset-kernel-boot-linux-%EB%B6%80%ED%8C%85%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%98%B5%EC%85%98%EC%9E%85%EB%8B%88%EB%8B%A4)
 ### 처음 sudo 사용 시
 1. passward 초기화 </br>
 ```
