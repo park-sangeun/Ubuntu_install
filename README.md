@@ -53,3 +53,13 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"으로 변경
 sudo update-grub
 ```
 6. reboot
+
+### 처음 sudo 사용 시
+1. passward 초기화 </br>
+```
+sudo passwd root
+```
+2. root 계정으로 들어간 후 sudo 설치 </br>
+```
+apt install sudo
+```
